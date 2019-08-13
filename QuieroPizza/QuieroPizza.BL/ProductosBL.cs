@@ -37,7 +37,7 @@ namespace QuieroPizza.BL
                 productoExistente.CategoriaId = producto.CategoriaId;
                
                 productoExistente.Precio = producto.Precio;
-                //  productoExistente.Activo = producto.Activo;
+                productoExistente.UrlImagen = producto.UrlImagen;
 
                
             }
